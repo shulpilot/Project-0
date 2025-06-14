@@ -1,0 +1,58 @@
+.table-exp td {
+    border: 2px solid #444;
+    background-color: aquamarine;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth@75..100&display=swap');
+
+body {
+    background-color: palegoldenrod;
+    color: darkorchid;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+
+    /* font: normal 16px "Roboto", sans-serif; */
+}
+
+.avatarka {
+    width: 290px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba (0, 0, 0, 0.25);
+}
+
+.info p {
+    color: red;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 3px;
+    word-spacing: 45px; */
+}
+
+/* Box model */
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.links {
+background: plum;
+/* padding: 15px; */
+/* padding: 15px 40px; */
+padding: 10px 15px 20px 25px;
+
+border: 5px solid red;
+border-bottom-style: dotted;
+border-top-width: 15px;
+border-top-color: aqua;
+border-bottom-color:aqua;
+border-right-color: blueviolet;
+border-left-color: blueviolet;
+
+margin: 5px;
+}
